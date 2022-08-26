@@ -1,0 +1,293 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+
+
+header {
+    display: flex;
+}
+.logo-img {
+    width: 120px;
+    margin-right: 1050px;
+}
+
+.btn-first {
+    background-color: white;
+    color: hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.first-div {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.btn-second {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    width: 200px;
+}
+
+.img-main {
+    width: 900px;
+    margin-top: 50px;
+}
+
+.header-first {
+    font-size: 50px;
+}
+.parag-first {
+    font-size: 20px;
+}
+
+.population {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 50px;
+}
+
+.img-pop {
+    width: 30px;
+    margin-right: 100px;
+    margin-bottom: -40px;
+}
+
+.header-pop {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.parag-pop {
+    font-size: 15px;
+    margin-top: -20px;
+    color: gray;
+}
+
+.top-bottom {
+    width: 100%;
+    margin: auto;
+}
+
+.second-div {
+    background-color: hsl(207, 100%, 98%);
+    margin-top: -25px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.sec-header {
+    margin-left: 220px;
+    margin-top: 80px;
+}
+
+.sec-parag {
+    margin-left: 220px;
+
+}
+
+.sec-img {
+    width: 350px;
+}
+.third-div {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.third-img {
+    width: 350px;
+    margin-left: 220px;
+}
+
+.third-right {
+    margin-top: 40px;
+}
+
+.foth-div {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: hsl(207, 100%, 98%);
+    margin-top: -10px;
+}
+
+.third-img-main {
+    width: 350px;
+}
+.fifth-div {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+footer {
+    background-color: hsl(192, 100%, 9%);
+    margin-top: -10px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.footer-img {
+    margin-left: 220px;
+}
+.footer-parag {
+    margin-left: 220px;
+    color: white;
+
+}
+
+.img-footer-one {
+    display: flex;
+    margin-left: 220px;
+    color: white;
+}
+.img-footer-two {
+    display: flex;
+    margin-left: 220px;
+    color: white;
+}
+
+.footer-img-social {
+    width: 15px;
+    height: 15px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+.social {
+    margin-left: 220px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+.news {
+    color: white
+}
+
+.news-header {
+    font-size: 22px;
+}
+
+.input-footer {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.footer-btn {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border: none;
+    margin-left: 20px;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+}
+
+
+.fa-facebook {
+    background: none;
+    color: white;
+    text-decoration: none;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 7px;
+  }
+  
+  .fa-twitter {
+    background: none;
+    color: white;
+    text-decoration: none;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 7px;
+  }
+  
+  .fa-google {
+    background: none;
+    color: white;
+    text-decoration: none;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 7px;
+  }
+
+
+@media (max-width: 700px) {
+    .logo-img {
+        margin-right: 200px;
+    }
+    .img-main {
+        width: 400px;
+    }
+    .population {
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 50px;
+    } 
+    .second-div {
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+    }
+
+    .sec-header{
+    margin-left: 0px;
+    }
+    .sec-parag {
+        margin-left: 0;
+    }
+
+    .third-div {
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+    }
+    .third-img {
+        margin-left: 0;
+    }
+
+    .foth-div {
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: auto;
+
+    }
+
+    .footer-parag {
+        margin-left: 0;
+    }
+    .footer-img {
+        margin-left: 0;
+    }
+    .social {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .img-footer-one {
+        margin-left: 0;
+    }
+    .img-footer-two {
+        margin-left: 0;
+    }
+
+}
